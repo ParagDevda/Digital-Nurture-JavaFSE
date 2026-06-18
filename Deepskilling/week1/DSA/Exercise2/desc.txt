@@ -1,0 +1,57 @@
+Exercise 2: E-Commerce Platform Search Function
+
+
+
+1. Aim
+    To implement Linear Search and Binary Search algorithms for searching products in an e-commerce platform and compare their performance using Big O notation.
+
+2. Understand Asymptotic Notation
+What is Big O Notation?
+    Big O notation represents the growth of an algorithm's execution time as the size of input increases.
+
+It helps in:
+    Comparing algorithms.
+    Predicting performance for large datasets.
+    Selecting efficient algorithms.
+    Search Operation Cases
+
+Best Case
+    The element is found at the first position.
+
+    Linear Search: O(1)
+
+    Binary Search: O(1)
+
+Average Case
+
+    Linear Search: O(n)
+
+    Binary Search: O(log n)
+
+Worst Case
+
+    The element is found at the last position or not present.
+
+    Linear Search: O(n)
+
+    Binary Search: O(log n)
+
+3. Algorithm
+Linear Search
+    Start from index 0.
+    Compare each product name with the key.
+    If found, return the index.
+    If end of array is reached, return -1.
+
+Binary Search
+    Sort the array.
+    Find middle element.
+    If middle element equals key, return index.
+    If key is smaller, search left half.
+    Otherwise search right half.
+    Repeat until element is found or array becomes empty.
+
+
+Suitable Algorithm
+
+Binary Search is preferred for sorted data because it provides logarithmic time complexity.

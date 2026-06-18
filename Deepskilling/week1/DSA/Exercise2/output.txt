@@ -1,0 +1,2 @@
+Linear Search: Product found at index 2
+Binary Search: Product found at index 1

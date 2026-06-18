@@ -1,0 +1,24 @@
+Exercise 7: Financial Forecasting
+
+Aim
+
+To predict future values based on past growth rates using a recursive algorithm.
+
+Theory:
+
+Recursion
+    Recursion is a technique in which a function calls itself to solve smaller instances of the same problem.
+
+Advantages  
+    Simple and elegant solution.
+    Suitable for divide-and-conquer problems.
+
+Disadvantages
+    May lead to excessive computation.
+    Uses extra memory due to recursive calls.
+
+Algorithm
+    If the number of years is 0, return the current value.
+    Otherwise, multiply the current value by (1 + growthRate).
+    Recursively calculate the value for the remaining years.
+    Return the final future value.

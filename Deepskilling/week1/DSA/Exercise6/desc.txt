@@ -1,0 +1,16 @@
+Exercise 6: Library Management System
+
+Aim
+
+To implement Linear Search and Binary Search to search books by title in a Library Management System.
+
+Theory
+
+    Linear Search
+        Searches elements one by one.
+        Suitable for small or unsorted datasets.
+
+    Binary Search
+        Divides the search space into halves.
+        Requires the array to be sorted.
+        More efficient for large datasets.

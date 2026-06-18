@@ -1,0 +1,14 @@
+Exercise 1: Inventory Management System
+
+Aim:
+Develop an inventory management system to efficiently store and retrieve product information.
+
+Why are Data Structures and Algorithms Important?
+Large inventories contain thousands of products. Efficient data structures allow quick insertion, updating, deletion, and searching while minimizing memory usage and execution time.
+
+
+Suitable Data Structure
+HashMap<Integer, Product>
+
+Fast access using productId as key.
+Average complexity of O(1).

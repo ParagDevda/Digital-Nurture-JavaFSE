@@ -1,0 +1,30 @@
+Sorting Customer Orders
+
+
+1. Aim
+    To sort customer orders based on their total price using Bubble Sort and Quick Sort and compare their performance.
+
+2. Understand Sorting Algorithms
+    Sorting is the process of arranging data in ascending or descending order.
+     It improves searching efficiency and helps prioritize high-value orders.
+
+Bubble Sort
+     Compares adjacent elements.
+     Swaps them if they are in the wrong order.
+     Repeats until the array becomes sorted.
+
+  Advantages
+    Simple to implement.
+
+  Disadvantages
+    Slow for large datasets.
+
+Quick Sort
+    Uses Divide and Conquer strategy.
+    Selects a pivot element.
+    Partitions the array into smaller subarrays.
+    Recursively sorts the subarrays.
+
+Advantages
+    Very efficient.
+    Faster than Bubble Sort for large datasets.

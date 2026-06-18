@@ -1,0 +1,17 @@
+Exercise 1: Implementing the Singleton Pattern
+
+Scenario: A logging utility should have only one instance throughout the application.
+
+1. Theory
+
+The Singleton Pattern is a creational design pattern that ensures:
+
+    Only one object (instance) of a class is created.
+    A global access point is provided to that object.
+
+Why use Singleton?
+    Logging systems
+    Database connections
+    Configuration settings
+    Cache managers
+    Thread pools

@@ -1,0 +1,36 @@
+Exercise 5: Task Management System (Singly Linked List)
+
+
+Aim
+
+To implement a Task Management System using a Singly Linked List and perform add, search, traverse, and delete operations.
+
+Theory
+
+Singly Linked List
+
+A singly linked list consists of nodes, where each node contains:
+    Data
+    Reference to the next node
+
+
+Advantages over Arrays
+    Dynamic size.
+    Efficient insertion and deletion.
+    No contiguous memory required.
+
+
+Algorithm:
+    Add Task
+        Create a new node.
+        Insert it at the end of the list.
+    Search Task
+        Traverse the list.
+        Compare taskId.
+        Return if found.
+    Traverse Tasks
+        Start from head.
+        Print each node.
+    Delete Task
+        Find the node.
+        Update links to remove it.

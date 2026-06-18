@@ -1,0 +1,15 @@
+Product added successfully.
+Product added successfully.
+Product added successfully.
+
+Inventory:
+ID: 101, Name: Mouse, Quantity: 50, Price: 450.0
+ID: 102, Name: Keyboard, Quantity: 20, Price: 1000.0
+ID: 103, Name: Monitor, Quantity: 10, Price: 8000.0
+
+Product updated successfully.
+Product deleted successfully.
+
+Inventory after update and delete:
+ID: 102, Name: Keyboard, Quantity: 25, Price: 1200.0
+ID: 103, Name: Monitor, Quantity: 10, Price: 8000.0

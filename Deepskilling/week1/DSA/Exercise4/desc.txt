@@ -1,0 +1,37 @@
+Exercise 4: Employee Management System
+
+
+
+Aim
+
+To implement an Employee Management System using arrays and perform add, search, traverse, and delete operations.
+
+Theory
+
+Arrays store elements in contiguous memory locations, allowing fast access using indexes.
+
+Advantages :
+    Fast random access.
+    Simple implementation.
+
+Limitations
+    Fixed size.
+    Insertion and deletion are costly.
+
+Algorithm
+ Add Employee
+    Insert employee into the array.
+    Increment count.
+
+ Search Employee
+    Traverse the array.
+    Compare employeeId.
+    Return employee if found.
+ 
+ Traverse Employees
+    Print all employee records.
+ 
+ Delete Employee
+    Find employee.
+    Shift elements left.
+    Decrement count.
