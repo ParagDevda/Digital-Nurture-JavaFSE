@@ -27,8 +27,16 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  <!-- Source: https://mvnrepository.com/artifact/org.springframework/spring-context -->
+
 
   <dependencies>
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>7.0.7</version>
+    <scope>compile</scope>
+</dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
