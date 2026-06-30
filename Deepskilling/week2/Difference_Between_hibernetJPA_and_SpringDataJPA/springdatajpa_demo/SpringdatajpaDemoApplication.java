@@ -19,7 +19,7 @@ public class SpringdatajpaDemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) {
-		employeeService.addEmployee(new Employee("Vansh Jain", "Product Engineering"));
+		employeeService.addEmployee(new Employee("Parag Devda", "Product Engineering"));
 		employeeService.addEmployee(new Employee("Harshit", "HR"));
 
 		employeeService.getAllEmployees().forEach(System.out::println);
