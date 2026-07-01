@@ -2,6 +2,9 @@ package com.cognizant.spring_learn.controller;
 
 
 import org.springframework.context.ApplicationContext;
+
+import java.util.List;
+
 import org.slf4j.Logger;
 
 
@@ -12,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cognizant.spring_learn.beans.Country;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
@@ -25,14 +29,28 @@ public class CountryController {
     public CountryController(ApplicationContext context) {
         this.context = context;
     }
-
-
-
     @GetMapping("/country")
     public Country getCountryIndia() {
 
         Country country = (Country) context.getBean("country");
         logger.debug("Country : {}", country.toString());
+
+        return country;
+    }
+    
+
+     public List<Country> getAllCountries(){
+        List<Country> list = (List<Country>) context.getBean("countryList");
+        return list;
+    }
+
+    @GetMapping("/country/{code}")
+    public Country getMethodName(@PathVariable String code ) {
+        Country country = null;
+        List<Country> list = getAllCountries();
+        for(Country c: list){
+            if(c.getCode().equalsIgnoreCase(code)) country = c;
+        }
 
         return country;
     }
