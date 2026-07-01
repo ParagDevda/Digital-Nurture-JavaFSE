@@ -29,12 +29,12 @@ public class CountryController {
 
 
     @GetMapping("/country")
-    public String displayCountry() {
+    public Country getCountryIndia() {
 
         Country country = (Country) context.getBean("country");
         logger.debug("Country : {}", country.toString());
 
-        return country.toString();
+        return country;
     }
     
 
