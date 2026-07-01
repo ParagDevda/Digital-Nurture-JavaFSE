@@ -1,0 +1,12 @@
+package com.cognizant.spring_learn.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
+
+@Configuration
+@ImportResource("country.xml")
+// @ImportResource: It loads XML configuration file into a SB application
+public class AppConfig {
+
+    
+}
